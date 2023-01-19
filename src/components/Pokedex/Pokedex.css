@@ -1,0 +1,74 @@
+.pokedex {
+ padding: 50px 0;
+ display: flex;
+ flex-direction: column;
+}
+
+.pokedex button {
+ align-self: center;
+ position: relative;
+ top: 30px;
+ background-color: #e0ce2d;
+ border: none;
+ padding: 10px 20px;
+ color: white;
+ border-radius: 2px;
+ cursor: pointer;
+ outline: none;
+ transition: .2s;
+}
+
+.pokedex button:hover {
+ transform: scale(1.05);
+ box-shadow: 3px 1px 6px 1px #747474;
+}
+
+.team__pokemons {
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 25px;
+ flex-wrap: wrap;
+}
+
+.team__header {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+
+.team__header h1 {
+ margin: 0;
+ font-family: 'Yusei Magic', sans-serif;
+}
+.team__header p {
+ margin: 0;
+ font-family: 'Yusei Magic', sans-serif;
+}
+
+.redTeam h1 {
+ color: #cc4848;
+ text-shadow: 1px 1px 3px #fdfdfd3d;
+}
+
+.blueTeam h1 {
+ color: #505ae2;
+ text-shadow: 1px 1px white;
+ text-shadow: 1px 1px 2px #fdfdfd70;
+}
+
+.blueTeam {
+ margin-top: 50px;
+}
+
+.redTeam  {
+ transition: .2s;
+}
+.redTeam .pokemonCard:hover {
+ transition: .2s;
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(197, 197, 214, 0.521) 35%, rgba(166, 19, 19, 0.849) 100%);
+}
+
+.blueTeam .pokemonCard:hover {
+ background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(197, 197, 214, 0.541) 35%, rgba(13, 51, 122, 0.836) 100%);;
+}

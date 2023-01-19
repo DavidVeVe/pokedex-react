@@ -1,0 +1,22 @@
+.pokemonCard {
+ border: 2px solid white;
+ border-radius: 3px;
+ min-width: 180px;
+ max-width: 200px;
+ height: 250px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin: 15px 0;
+}
+
+.pokemonType {
+ margin:  0;
+}
+.pokemonExp {
+ margin: 5px 0;
+}
+
+.pokemonCard h2 {
+ text-transform: capitalize;
+}
